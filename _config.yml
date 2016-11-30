@@ -24,3 +24,4 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - CONTRIBUTING.MD
