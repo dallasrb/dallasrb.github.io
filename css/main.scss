@@ -4,3 +4,49 @@
 @charset "utf-8";
 
 @import "normalize";
+
+$primary-color: #515554;
+$secondary-color: #edeeee;
+$tertiary-color: #fc382d;
+
+$break-point: 500px;
+$spacing: 10px;
+
+@import "header";
+@import "footer";
+@import "index";
+
+.wrapper {
+  max-width: 800px;
+  min-width: 320px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h3 {
+  background-color: $primary-color;
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 0;
+  padding: 20px 10px;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+a.button {
+  background-color: $tertiary-color;
+  border-radius: ($spacing / 2);
+  color: #fff;
+  padding: $spacing;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken($tertiary-color, 15%);
+  }
+}
