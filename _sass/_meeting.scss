@@ -1,0 +1,22 @@
+.meeting {
+  .speaker {
+    background-color: $tertiary-color;
+    color: #fff;
+    font-style: italic;
+    padding: $spacing;
+  }
+
+  .info {
+    background-color: $secondary-color;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 $spacing;
+  }
+
+  .actions {
+    margin-top: $spacing * 2;
+    height: $spacing * 4;
+    text-align: center;
+    width: 100%;
+  }
+}

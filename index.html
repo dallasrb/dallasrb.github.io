@@ -19,61 +19,35 @@ title: Dallas Ruby Brigade
   We work on personal projects, ask for help, and chat about whatever comes to mind.
 </p>
 
-<div class="meeting">
-  <h3>Best and Worst of the Year</h3>
-  <div class="speaker">by You</div>
-  <div class="info">
-    <div class="when">
-      <h4>When?</h4>
-      Dec 6th @ 7pm - 9pm
-    </div>
-    <div class="where">
-      <h4>Where?</h4>
-      <strong>Improving</strong><br>
-      5445 Legacy Dr #100<br>
-      Plano, TX 75024
-    </div>
-    <div class="what">
-      <h4>What?</h4>
-      <p>
-        Our yearly tradition is back!
-        Bring your best and worst code from the year and show everyone.
-        We’ll ooh and ah the best and commiserate over the worst.
-        We always prefer Ruby code but if you’ve got some bad code in another language we can look at that too.
-      </p>
-    </div>
+{% include meeting.html
+  title="Best and Worst of the Year"
+  speaker="You"
+  date="Dec 6th"
+  host="Improving"
+  host_address1="5445 Legacy Dr. #100"
+  host_address2="Plano, TX 75024"
+  description="
+    Our yearly tradition is back!
+    Bring your best and worst code from the year and show everyone.
+    We’ll ooh and ah the best and commiserate over the worst.
+    We always prefer Ruby code but if you’ve got some bad code in another language we can look at that too.
+  "
+  rsvp_text="RSVP for the talk"
+  rsvp_url="https://www.meetup.com/dallasrb/events/235328696/"
+%}
 
-    <div class="actions">
-      <a href="https://www.meetup.com/dallasrb/events/235328696/" class="button">RSVP for the talk</a>
-    </div>
-  </div>
-</div>
-
-<div class="meeting">
-  <h3>Hacknight</h3>
-  <div class="info">
-    <div class="when">
-      <h4>When?</h4>
-      Dec 20th @ 7pm
-    </div>
-    <div class="where">
-      <h4>Where?</h4>
-      <strong>Modern Message</strong><br>
-      750 North St. Paul Street #1230<br>
-      Dallas, TX 75201
-    </div>
-    <div class="what">
-      <h4>What?</h4>
-      <p>
-        We work on personal projects, ask for help, and chat about whatever comes to mind.
-      </p>
-    </div>
-
-    <div class="actions">
-      <a href="https://www.meetup.com/dallasrb/events/235328696/" class="button">RSVP to come code</a>
-    </div>
-  </div>
-</div>
+{% include meeting.html
+  title="Hacknight"
+  date="Dec 20th"
+  host="Modern Message"
+  host_address1="750 North St. Paul Street #1230"
+  host_address2="Dallas, TX 75021"
+  description="
+    We work on personal projects, ask for help, and chat about whatever comes to mind.
+  "
+  rsvp_text="RSVP to come code"
+  rsvp_url="https://www.meetup.com/dallasrb/events/235328696/"
+%}
 
 <h2 id="contact-us">Contact Us</h2>
 
