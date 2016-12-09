@@ -1,24 +1,5 @@
-.menu {
-  display: flex;
-  border-bottom: 2px solid $secondary-color;
-  justify-content: center;
-  margin-top: $spacing * 8;
-  padding: $spacing;
-
-  a {
-    color: $tertiary-color;
-    font-size: 1.5em;
-    font-style: bold;
-    text-decoration: none;
-
-    &:not(:last-child) {
-      margin-right: $spacing * 3;
-    }
-  }
-}
-
-h2 {
-  margin-top: $spacing * 8;
+h2, .description {
+  margin-top: $spacing * 4;
 }
 
 .meeting {

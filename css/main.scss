@@ -6,7 +6,7 @@
 @import "normalize";
 
 $primary-color: #515554;
-$secondary-color: #edeeee;
+$secondary-color: #fff;
 $tertiary-color: #fc382d;
 
 $break-point: 500px;
@@ -15,6 +15,10 @@ $spacing: 10px;
 @import "header";
 @import "footer";
 @import "index";
+
+body {
+  background-color: #edeeee;
+}
 
 .wrapper {
   max-width: 800px;
