@@ -21,7 +21,7 @@ h2 {
   margin-top: $spacing * 8;
 }
 
-.main-meeting {
+.meeting {
   .speaker {
     background-color: $tertiary-color;
     color: #fff;
@@ -41,28 +41,6 @@ h2 {
     height: $spacing * 4;
     text-align: center;
     width: 100%;
-  }
-}
-
-.hacknights {
-  .meetings {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-    > * {
-      background-color: $secondary-color;
-      flex: 0 0 calc(33% - (#{$spacing} * 3));
-      padding: $spacing;
-
-      @media (max-width: $break-point) {
-        flex: 0 0 calc(100% - (#{$spacing} * 2));
-      }
-
-      h4 { 
-        margin-top: 0;
-      }
-    }
   }
 }
 
