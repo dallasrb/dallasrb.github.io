@@ -11,6 +11,28 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 $spacing;
+
+    .when {
+      @media (min-width: $medium-break) {
+        flex: 0 0 33.33%;
+      }
+    }
+
+    .where {
+      @media (min-width: $medium-break) {
+        flex: 0 0 33.33%;
+      }
+    }
+
+    .where-map {
+      @media (min-width: $medium-break) {
+        flex: 0 0 33.33%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
   }
 
   .actions {

@@ -14,6 +14,11 @@
       {{ include.host_address1 }}<br>
       {{ include.host_address2 }}
     </div>
+    <div class="where-map">
+      <a href="https://www.google.com/maps/place/{{ include.host_address1 }},{{ include.host_address2 }}">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDSHmrgaUvwdZsvXoOWWXdqKT6v6A-VXxQ&size=400x400&markers=color:red|{{ include.host_address1 }},{{ include.host_address2 }}">
+      </a>
+    </div>
     <div class="what">
       <h4>What?</h4>
       <p>{{ include.description }}</p>
