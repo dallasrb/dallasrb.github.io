@@ -9,9 +9,10 @@
 title: Dallas Ruby Brigade
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  The Dallas Ruby Brigade has been around since early 2006. 
-  We meet every Tuesday evening to present, hack, teach, 
-  or learn about the Ruby programming language.  
+  The Dallas Ruby Brigade has been around since early 2006.
+  We work to strengthen the programming community through presentations, hacking, teaching, and learning about the Ruby programming language.
+  There is always food.
+  Sometimes there is beer.
   All are welcome!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
