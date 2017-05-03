@@ -8,25 +8,14 @@
 
   .info {
     background-color: $secondary-color;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 $spacing;
-
-    .when {
-      @media (min-width: $medium-break) {
-        flex: 0 0 33.33%;
-      }
-    }
-
-    .where {
-      @media (min-width: $medium-break) {
-        flex: 0 0 33.33%;
-      }
-    }
+    padding: $spacing;
+    position: relative;
 
     .where-map {
       @media (min-width: $medium-break) {
-        flex: 0 0 33.33%;
+        position: absolute;
+        top: 0;
+        right: 0;
       }
 
       img {
@@ -38,6 +27,6 @@
   .actions {
     padding: $spacing;
     text-align: center;
-    width: 100%;
+    width: calc(100% - #{$spacing * 2});
   }
 }
