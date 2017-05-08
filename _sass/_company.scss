@@ -1,0 +1,16 @@
+.company {
+  a {
+    display: inline-flex;
+
+    .logo {
+      height: 100%;
+      width: calc(100% - #{$spacing * 4});
+      padding: $spacing * 2;
+
+      @media (min-width: $medium-break) {
+        height: 50px;
+        width: auto;
+      }
+    }
+  }
+}

@@ -1,28 +1,35 @@
 header {
   background-color: $secondary-color;
-}
 
-.logo {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: $spacing * 5;
-}
+  .logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: $spacing * 5;
+  }
 
-.menu {
-  display: flex;
-  justify-content: center;
-  margin-top: $spacing;
-  padding: $spacing;
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: $spacing;
+    padding: $spacing;
+    text-align: center;
 
-  a {
-    color: $tertiary-color;
-    font-size: 1.5em;
-    font-style: bold;
-    text-decoration: none;
+    a {
+      color: $tertiary-color;
+      flex-grow: 1;
+      font-size: 1.5em;
+      font-style: bold;
+      text-decoration: none;
 
-    &:not(:last-child) {
-      margin-right: $spacing * 3;
+      @media (min-width: $medium-break) {
+        flex-grow: 0;
+
+        &:not(:last-child) {
+          margin-right: $spacing * 3;
+        }
+      }
     }
   }
 }
