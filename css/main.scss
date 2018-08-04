@@ -44,14 +44,14 @@ body {
 h2 {
   text-align: center;
   font-size: 2.5em;
+  margin-top: $spacing*12;
 }
 
 h3 {
-  background-color: $primary-color;
-  color: #fff;
+  color: $primary-color;
   font-size: 2em;
   margin-bottom: 0;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 h4 {
@@ -69,4 +69,18 @@ a.button {
   &:hover {
     background-color: darken($tertiary-color, 15%);
   }
+
+  &.large {
+    font-size: 1.5em;
+    padding: $spacing*2;
+  }
+}
+
+.meeting-link {
+  margin: $spacing*5 0;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
 }
