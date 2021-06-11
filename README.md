@@ -1,3 +1,3 @@
 ## Dallas Ruby Brigade Website
 
-Learn more about [Dallas.rb](index.md)!
+Learn more about [Dallas.rb](http://dallasrb.org)!
